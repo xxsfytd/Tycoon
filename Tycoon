@@ -2,6 +2,23 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Crab Ugc", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
+	Name = "Help Tab",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Tycoon Function")
+
+Tab:AddLabel("For the auto exit and auto enter button to function u must know what tycoon u are theres 6 tycoons here click the button below me and find what tycoon number you are.")
+
+Tab:AddButton({
+	Name = "Teleport To Tycoons",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(644, 15, 249)
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
