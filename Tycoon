@@ -1,0 +1,445 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Crab Ugc", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "Frog",
+	Content = "🐸",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+local Tab = Window:MakeTab({
+	Name = "Help Tab",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Tycoon Function")
+
+Tab:AddLabel("Locate what number ur in click the button below")
+
+Tab:AddButton({
+	Name = "Teleport To Tycoons",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(644, 15, 249)
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Tycoon 1"
+})
+
+Tab:AddToggle({
+	Name = "Auto Exit Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoExitButton1 = Value
+		while _G.autoExitButton1 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon1.ExitButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Enter Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoEnterButton1 = Value
+		while _G.autoEnterButton1 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon1.EnterButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Tycoon 2"
+})
+
+Tab:AddToggle({
+	Name = "Auto Exit Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoExitButton2 = Value
+		while _G.autoExitButton2 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon2.ExitButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Enter Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoEnterButton2 = Value
+		while _G.autoEnterButton2 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon2.EnterButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Tycoon 3"
+})
+
+Tab:AddToggle({
+	Name = "Auto Exit Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoExitButton3 = Value
+		while _G.autoExitButton3 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon3.ExitButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Enter Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoEnterButton3 = Value
+		while _G.autoEnterButton3 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon3.EnterButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Tycoon 4"
+})
+
+Tab:AddToggle({
+	Name = "Auto Exit Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoExitButton4 = Value
+		while _G.autoExitButton4 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon4.ExitButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Enter Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoEnterButton4 = Value
+		while _G.autoEnterButton4 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon4.EnterButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Tycoon 5"
+})
+
+Tab:AddToggle({
+	Name = "Auto Exit Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoExitButton6 = Value
+		while _G.autoExitButton6 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon5.ExitButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Enter Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoEnterButton5 = Value
+		while _G.autoEnterButton5 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon5.EnterButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Exit Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoExitButton6 = Value
+		while _G.autoExitButton6 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon6.ExitButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Enter Button",
+	Default = false,
+	Callback = function(Value)
+		_G.autoEnterButton6 = Value
+		while _G.autoEnterButton6 and wait() do
+		-- Find the player and the target part
+local player = game.Players.LocalPlayer
+local targetPart = game.Workspace.Tycoons.Tycoon6.EnterButton -- Replace "TargetPart" with the actual name of your target part
+
+-- Teleport the player to the target part's position
+player.Character:MoveTo(targetPart.Position)
+
+-- Wait for the player to reach the destination
+wait(1)  -- Adjust the wait time as needed
+
+-- Find the ProximityPrompt on the target part
+local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
+
+-- Check if a ProximityPrompt was found
+if proximityPrompt then
+    -- Trigger the ProximityPrompt to activate it
+    proximityPrompt:InputHoldBegin(Enum.UserInputType.MouseButton1)
+    wait(0.2)  -- Adjust the wait time as needed
+    proximityPrompt:InputHoldEnd(Enum.UserInputType.MouseButton1)
+else
+    print("ProximityPrompt not found on target part.")
+end
+end
+	end    
+})
+
+
+
+
+
+
+
+
+
+OrionLib:Init()
