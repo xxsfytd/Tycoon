@@ -9,8 +9,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddLabel("Tycoon Function")
 
-Tab:AddLabel("Find what number u are in
-click the button below")
+Tab:AddLabel("Find what number u are in to function")
 
 Tab:AddButton({
 	Name = "Teleport To Tycoons",
