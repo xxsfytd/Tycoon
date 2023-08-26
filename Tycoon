@@ -44,7 +44,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon1.ExitButton -- Replace "TargetP
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -76,7 +76,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon1.EnterButton -- Replace "Target
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -112,7 +112,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon2.ExitButton -- Replace "TargetP
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -144,7 +144,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon2.EnterButton -- Replace "Target
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -180,7 +180,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon3.ExitButton -- Replace "TargetP
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -212,7 +212,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon3.EnterButton -- Replace "Target
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -248,7 +248,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon4.ExitButton -- Replace "TargetP
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -280,7 +280,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon4.EnterButton -- Replace "Target
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -316,7 +316,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon5.ExitButton -- Replace "TargetP
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -348,7 +348,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon5.EnterButton -- Replace "Target
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -384,7 +384,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon6.ExitButton -- Replace "TargetP
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
@@ -416,7 +416,7 @@ local targetPart = game.Workspace.Tycoons.Tycoon6.EnterButton -- Replace "Target
 player.Character:MoveTo(targetPart.Position)
 
 -- Wait for the player to reach the destination
-wait(5)  -- Adjust the wait time as needed
+wait(0.05)  -- Adjust the wait time as needed
 
 -- Find the ProximityPrompt on the target part
 local proximityPrompt = targetPart:FindFirstChildOfClass("ProximityPrompt")
