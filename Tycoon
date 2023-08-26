@@ -398,6 +398,10 @@ end
 	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Tycoon 6"
+})
+
 Tab:AddToggle({
 	Name = "Auto Enter Button",
 	Default = false,
