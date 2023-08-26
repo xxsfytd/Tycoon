@@ -18,6 +18,8 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddLabel("Hi")
+
 local Tab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://4483345998",
@@ -437,10 +439,3 @@ end
 
 
 OrionLib:Init()
-
-
-
-
-
--- 7_:#(#;#(2;@(#(#+2(#($82
--- JDBSIZBKWBAKAJABSJEIAJAS
