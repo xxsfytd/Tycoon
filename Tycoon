@@ -87,7 +87,7 @@ Tab:AddToggle({
 		while _G.autoExitButton2 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.ExitButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon2.ExitButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -119,7 +119,7 @@ Tab:AddToggle({
 		while _G.autoEnterButton2 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.EnterButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon2.EnterButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -155,7 +155,7 @@ Tab:AddToggle({
 		while _G.autoExitButton3 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.ExitButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon3.ExitButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -187,7 +187,7 @@ Tab:AddToggle({
 		while _G.autoEnterButton3 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.EnterButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon3.EnterButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -223,7 +223,7 @@ Tab:AddToggle({
 		while _G.autoExitButton4 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.ExitButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon4.ExitButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -255,7 +255,7 @@ Tab:AddToggle({
 		while _G.autoEnterButton4 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.EnterButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon4.EnterButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -291,7 +291,7 @@ Tab:AddToggle({
 		while _G.autoExitButton6 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.ExitButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon5.ExitButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -323,7 +323,7 @@ Tab:AddToggle({
 		while _G.autoEnterButton5 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.EnterButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon5.EnterButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -355,7 +355,7 @@ Tab:AddToggle({
 		while _G.autoExitButton6 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.ExitButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon6.ExitButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
@@ -387,7 +387,7 @@ Tab:AddToggle({
 		while _G.autoEnterButton6 and wait() do
 		-- Find the player and the target part
 local player = game.Players.LocalPlayer
-local targetPart = game.Workspace.Tycoons.Tycoon1.EnterButton -- Replace "TargetPart" with the actual name of your target part
+local targetPart = game.Workspace.Tycoons.Tycoon6.EnterButton -- Replace "TargetPart" with the actual name of your target part
 
 -- Teleport the player to the target part's position
 player.Character:MoveTo(targetPart.Position)
