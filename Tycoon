@@ -9,7 +9,8 @@ local Tab = Window:MakeTab({
 
 Tab:AddLabel("Tycoon Function")
 
-Tab:AddLabel("For the auto exit and auto enter button to function u must know what tycoon u are theres 6 tycoons here click the button below me and find what tycoon number you are.")
+Tab:AddLabel("Find what number u are in
+click the button below")
 
 Tab:AddButton({
 	Name = "Teleport To Tycoons",
